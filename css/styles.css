@@ -56,19 +56,21 @@ li {
 .navbar {
   background-color: #E4F9F5;
   padding: 20px 0 20px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  opacity: 0.8;
 }
 
 .navbar a:hover {
   color: #66BFBF;
 }
 
-.nav-list{
+.nav-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
 }
 
 .nav-list-item {
@@ -118,8 +120,8 @@ li {
 
 .top-cloud {
   position: absolute;
-  right: 400px;
-  top: 50px;
+  right: 370px;
+  top: 80px;
 }
 
 .bottom-cloud {
@@ -154,7 +156,6 @@ li {
 .skill-desc-right {
   clear: right;
 } */
-
 .contact-message {
   width: 40%;
   margin: 40px auto 40px;
@@ -190,5 +191,5 @@ li {
 .copyright {
   color: #EAF6F6;
   font-size: 0.75rem;
-  padding:20px 0;
+  padding: 20px 0;
 }
