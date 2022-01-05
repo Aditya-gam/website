@@ -49,6 +49,42 @@ a:hover {
   color: #EAF6F6;
 }
 
+li {
+  display: inline;
+}
+
+.navbar {
+  background-color: #E4F9F5;
+  padding: 20px 0 20px;
+}
+
+.navbar a:hover {
+  color: #66BFBF;
+}
+
+.nav-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+.nav-list-item {
+  border-right: 1px solid #bbb;
+}
+
+.nav-list-item:first-child {
+  border-right: none;
+}
+
+.nav-item {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .top-container {
   background-color: #E4F9F5;
   position: relative;
