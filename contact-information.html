@@ -7,30 +7,48 @@
     <link rel="icon" href="icons/contact-page.ico">
   </head>
   <body>
-    <h1>Contact Information</h1>
-    <hr>
 
-    <!-- Email -->
-    <h3> My Email </h3>
-    <p>Work Email: <a href="mailto:adityajune196@gmail.com">adityajune196@gmail.com</a></p>
-    <p>College Email: <a href="mailto:aditya.21910379@viit.ac.in">aditya.21910379@viit.ac.in</a></p>
-    <p>Phone/Whatsapp number: <strong>9834863259</strong></p>
+    <!-- Nav Bar -->
+    <header class="navbar">
+      <div>
+        <ul class="nav-list">
+          <li class="nav-list-item" style="float:right"><a class="nav-item" href="contact-information.html">Contact</a></li>
+          <li class="nav-list-item" style="float:right"><a class="nav-item" href="https://aditya-gam.github.io/cv/">About</a></li>
+          <li class="nav-list-item" style="float:right"><a class="nav-item" href="index.html">Home</a></li>
+        </ul>
+      </div>
+    </header>
 
-    <hr>
+    <div class="title">
+      <h1>Contact Information</h1>
+    </div>
 
-    <!-- Message Form -->
-    <h2>Leave Feedback</h2>
+    <div class="main-div">
+      <hr>
+      <div class="contact-email">
+        <h2> My Email </h2>
+        <p>Work Email: <a href="mailto:adityajune196@gmail.com">adityajune196@gmail.com</a></p>
+        <p>College Email: <a href="mailto:aditya.21910379@viit.ac.in">aditya.21910379@viit.ac.in</a></p>
+        <p>Phone/Whatsapp number: <strong>9834863259</strong></p>
+      </div>
 
-    <form action="mailto:aditya19june2001@gmail.com?subject=Feedback" method="post" enctype="text/plain">
-      <label> Your Name: </label>
-      <input type="text" name="yourName" value=""><br><br>
-      <label> Your Email: </label>
-      <input type="email" name="yourEmail" value=""><br><br>
-      <label> Your Message </label><br>
-      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
-      <input type="submit" name="">
+      <hr>
 
-    </form>
+      <!-- Message Form -->
+      <div class="feedback-form">
+        <h2>Leave Feedback</h2>
+
+        <form action="mailto:aditya19june2001@gmail.com?subject=Feedback" method="post" enctype="text/plain">
+          <label> Your Name: </label>
+          <input type="text" name="yourName" value=""><br><br>
+          <label> Your Email: </label>
+          <input type="email" name="yourEmail" value=""><br><br>
+          <label> Your Message </label><br>
+          <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+          <input type="submit" name="">
+        </form>
+      </div>
+    </div>
 
   </body>
 </html>
