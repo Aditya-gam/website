@@ -53,6 +53,10 @@ li {
   display: inline;
 }
 
+/* i {
+  outline: 1px solid #803156!important;
+} */
+
 .navbar {
   background-color: #E4F9F5;
   padding: 20px 0 20px;
@@ -99,7 +103,7 @@ li {
 
 .bottom-container {
   background-color: #66BFBF;
-  padding: 50px 0 20px;
+  padding: 20px 0 20px;
 }
 
 .pro {
@@ -188,8 +192,17 @@ li {
   text-decoration: none;
 }
 
+/* i.email {
+  position: absolute;
+  height: 15px;
+  width: 24px;
+  left: 11%;
+  top: 33%;
+  background-image: url(images/mail.png)
+} */
+
 .copyright {
   color: #EAF6F6;
   font-size: 0.75rem;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
 }
