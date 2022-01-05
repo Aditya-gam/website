@@ -4,11 +4,10 @@ body {
 }
 
 hr {
-  background-color: white;
-  border-style: dotted none none;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
 }
 
 h1 {
